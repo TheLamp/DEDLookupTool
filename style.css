@@ -1,0 +1,108 @@
+html {
+	width: 100%;
+	height: 100%;
+    font-family: Verdana;
+}
+
+.header {
+	border:solid 1px;
+    background-color: Grey;
+    color: White;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 > p {
+    font-size:13px;
+}
+
+pre {
+	text-align: left;
+	width: 70%;
+    margin: 0 auto;
+}
+
+div.div-output {
+    float: right;
+    border: solid 1px #bbbbbb;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    height: 115px;
+    background-color: #617798;
+    color: white;
+    font-size: 10px;
+}
+
+form {
+    width:45%;
+    background-color:#617798;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
+    height: 115px;
+}
+
+input, textarea { 
+    padding: 6px; 
+    border: solid 1px #bbbbbb; 
+    outline: 0; 
+    font: normal 13px/100% Verdana, Tahoma, sans-serif; 
+    width: 273px; 
+    background: #FFFFFF; 
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+} 
+   
+input:hover, textarea:hover, 
+input:focus, textarea:focus { 
+    border-color: #929292; 
+} 
+   
+.form label { 
+    margin-left: 10px; 
+    color: #999999; 
+} 
+   
+.submit input { 
+    width: auto; 
+    padding: 9px 15px; 
+    background: #FFFFFF; 
+    border: 0; 
+    font-size: 14px; 
+    color: #617798;
+    border-radius: 5px;
+}
+
+.submit input:hover {
+	cursor: pointer;
+}
+
+.footer {
+    border: solid 1px;
+    background-color: Grey;
+    height: 20px;
+    border-radius: 5px;
+    color: White;
+    bottom: 0;
+    position: fixed;
+    font-style: italic;
+    width: 98.5%;
+    font-size: 14.5px;
+    display: inline;
+}
+.footer > p {
+    font-size: 12px;
+    font-style: normal;
+    display: inline;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
