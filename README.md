@@ -1,2 +1,2 @@
 # DEDServer
-DED Server for CoCDevForum - CSS Rewrite coming soon.
+DED Server for CoCDevForum
